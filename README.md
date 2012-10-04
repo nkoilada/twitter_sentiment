@@ -51,6 +51,15 @@ A Logistic Regression (lr) model is used to classify a tweet's sentiment as posi
 		nkoilada@nkoilada-lap:~/Projects/twitter_sentiment$ python sentiment.py twitter models/model_lr_1349310935.pkl 
 		Positive, Negative : [ 61.25092372  38.74907628]
 
+License
+-------
+This software comes with GNU LGPL v2.1. For complete terms see "LICENSE.txt"
+
+Author
+------
+Name: Nagendra Koilada
+Email: nkoilada@uci.edu
+
 
 
 
