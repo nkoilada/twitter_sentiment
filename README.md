@@ -23,7 +23,7 @@ Language Detection
 The tweets returned by Twitter Search API could also contains tweets in some other languages like Spanish, Portuguese, Dutch etc. This can happen even when lang = en filter is used. There are two different methods implemented in this project to separate the non-english tweets from english tweets:
 
 1. Clustering Based Language Detection
-In this method we assume Mixture of Gaussians model for the tweets and use the Expection-Maximization algorithm to estimate the parameters of the model. We hope that the two groups formed will be of english and non-english tweets. Once the model parameters are estimated, we can use them to classify new tweets.
+In this method we assume Mixture of Gaussians model for the tweets and use the Expectation-Maximization algorithm to estimate the parameters of the model. We hope that the two groups formed will be of english and non-english tweets. Once the model parameters are estimated, we can use them to classify new tweets.
 
 		python lang_detection_em.py --build clean_tweets.txt
 		python lang_detection_em.py clean_tweets.txt #creates a new file clean_tweets.filtered.txt
